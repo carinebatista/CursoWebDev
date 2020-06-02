@@ -7,9 +7,22 @@
 
 /*  Especificidade */
 
-p{
+/* p{
     color:blue !important;
 }
 p{
     color:red;
+} */
+
+/*  Se um seletor for mais especifico que outro, a rwegra mais 
+especifica será aplicada, tera precedencia sobre regras gerais */
+
+*{
+     color: red;
+}
+h2{
+    color: blue;
+}
+h2.verde{
+    color: green;
 }
