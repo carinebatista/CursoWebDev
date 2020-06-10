@@ -5,8 +5,8 @@ body{
 }
 #container{
     margin: 0 auto;
-    background: #fff;
-    width: 85%; /*sempre usa %*/ 
+    background: #fff url(imagens/coluna.png) repeat-y left top;
+    width: 960px; /*sempre usa %*/ 
     min-width: 720px;
     max-width: 960px;
 }
@@ -37,7 +37,7 @@ img.img-noticia{
     float: left;
     padding-top: 20px;
     padding-bottom: 20px;
-    background: #d1d1d1;
+    /* background: #d1d1d1; */
     
    
 }
