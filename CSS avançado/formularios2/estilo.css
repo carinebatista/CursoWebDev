@@ -39,5 +39,18 @@ input.senha{
     background-image:  url(imagens/icone-cadeado.png);
 }
 input.submit{
+    color: #fff;
+    background-color: #f79300;
+    border: 2px solid #db7d00;
+    padding: 5px 20px;
+    height: 45px;
+    width: 90%;
+
     
+    background: linear-gradient(to bottom, #faa600, #f68a00 );
+     /*  Prefixos para que funcione em outros navegadores */
+    background: -webkit-linear-gradient(to bottom, #faa600, #f68a00 );
+    background: -moz-linear-gradient(to bottom, #faa600, #f68a00 );
+    background: -o-linear-gradient(to bottom, #faa600, #f68a00 );
+
 }
