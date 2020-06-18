@@ -82,7 +82,7 @@ body.fotos #navegacao a#fotos
 }
 #primario{
     width:270px ;
-    background: green;
+
     float: left;
     margin: 0 0 20px 195px;
 }
@@ -95,7 +95,7 @@ body.fotos #navegacao a#fotos
 }
 #secundario{
     width: 270px;
-    background: yellow;
+   
     margin: 0 0 20px 15px;
     float: left;
 }
@@ -113,9 +113,39 @@ body.fotos #navegacao a#fotos
 .caixa{
     background: #f3f3f3 url(imagens/fundo-caixa.png);
     margin: 10px 0;
+    padding: 5px 0 5px 0;
 }
+.caixa-conteudo{
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+h2{
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+/* Formatar Menus Laterais */
+#lateral ul a{
+    font-size: 0.9em;
+    display: block;
+    padding: 3px;
+    color: #000;
+    border-bottom: 1px solid #f3f3f3;
+    text-decoration: none;
+    line-height:30px;
+}
+
+#lateral ul a:hover{
+    color: #a1a1a1;
+    padding-left: 20px;
+    background: #f9f9f9 url(imagens/marcador.png) no-repeat left center;
+}
+/*  Rodapé */
 #rodape{
     width: 750px;
     margin: 0 auto;
     color: #fff;
 }
+
