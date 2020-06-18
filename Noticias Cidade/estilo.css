@@ -147,6 +147,12 @@ label{
     display: block;
     cursor: pointer;
 }
+input{
+    font-size: 0.9em;
+    background-color: #fff;
+    padding: 5px;
+    width: 125px;
+}
 /*  Rodapé */
 #rodape{
     width: 750px;
