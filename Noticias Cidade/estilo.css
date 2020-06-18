@@ -163,6 +163,28 @@ input.submit{
     padding: 5px;
 }
 
+/*  Formatando Imagens */
+
+img.imagem-principal{
+    border: 3px solid #dfdfdf;
+    width: 98%;
+}
+h3{
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background: #de003e;
+ 
+}
 
 /*  Rodapé */
 #rodape{
