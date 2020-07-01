@@ -5,7 +5,7 @@ body, html{
   font: 16px "Lato";
   color: #777;
   height: 100%;
-  border: 1px solid red;
+
 }
 
 
@@ -19,4 +19,18 @@ h3{
     text-transform: uppercase;
     color: #111;
     text-align: center;
+}
+
+/* Efeito Parallax */
+
+.caixa1, .caixa2{
+    border: 1px solid red;
+    height: 100%;
+
+}
+.caixa1{
+    background-image: url(../imagens/imagem1.jpg);
+}
+.caixa2{
+    background-image: url(../imagens/imagem2.jpg);
 }
