@@ -1,7 +1,7 @@
 # Curso Web Dev
 Nesse Curso eu aprendi
-* HTML- Básico
-* CSS- Intermediário
+* HTML 
+* CSS- Avançado (Revisão)
 * Bootstrap
 * PHP 
 * JQuerry 
