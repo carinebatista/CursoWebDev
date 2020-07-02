@@ -1,5 +1,5 @@
-# Curso Web Dev
-Nesse Curso eu aprendi
+# Curso Web Dev :smile:
+Nesse Curso eu aprendi 
 * HTML 
 * CSS- Avançado (Revisão)
 * Bootstrap
