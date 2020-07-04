@@ -24,6 +24,25 @@ nav ul li a{
     font-family: fantasy;
     color: black;
 }
+/* Article */
+article{
+    background: orange;
+    padding: 10px;
+}
+
+/* Section */
+section{
+    border: 1px dotted #fff  ;
+    padding: 5px;
+}
+
+
+/* Aside */
+aside{
+background: #c69;
+
+}
+/* Rodapé */
 
 footer{
     background: #ccc ;
