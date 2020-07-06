@@ -1,0 +1,43 @@
+*{
+    margin 0;
+    padding: 0;
+}
+
+header{
+    padding: 5px;
+}
+
+div{
+    padding: 5px;
+}
+
+#conteudo{
+    background: #dcdcdc;
+    height: 400px;
+    display: flex;
+
+    /* A propiedade Flex Direction
+    aceita valores: Row, Row-reverse, column, column-reverse */
+    
+    /* É a Direção que vc quer alinhar seu itens */
+    flex-direction: row ; /*Row é o padrão*/
+
+    /* nowrap | wrap | wrap-reverse */
+    flex-wrap:nowrap ; /* nowrap é o padrão*/
+
+
+    /* justify content
+    flex-start | flex-end | center | space-between |space-around */
+    justify-content: flex-start; /*Flex-start é o padrão*/
+
+
+}
+.item{
+
+
+    width: 100px;
+    height: 100px;
+    background: white;
+    border: 1px solid gray;
+    margin: 10px;
+}
