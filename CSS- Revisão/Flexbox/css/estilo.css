@@ -14,25 +14,26 @@ div{
 #conteudo{
     background: #dcdcdc;
     height: 400px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+
 
     /* A propiedade Flex Direction
     aceita valores: Row, Row-reverse, column, column-reverse É a Direção que vc quer alinhar seu itens */
-    /* flex-direction: row ; Row é o padrão */
+    flex-direction: row ; /*Row é o padrão*/
 
     /* nowrap | wrap | wrap-reverse */
-    /* flex-wrap:nowrap ; nowrap é o padrão */
+    flex-wrap:nowrap ; /*nowrap é o padrão*/
 
 
     /* justify content
     flex-start | flex-end | center | space-between |space-around */
-    /* justify-content: space-around; Flex-start é o padrão */
+    justify-content:flex-start ; /*Flex-start é o padrão*/
 
     /* align items */
     /* stretch | center| flex-start | flex-end | baseline */
-    /* align-items: baseline; */
-
-
+    align-items: stretch; /*Stretch é padrão*/
 
 
 }
@@ -44,8 +45,31 @@ div{
     background: white;
     border: 1px solid gray;
     margin: 10px;
+
+    /* Define a proporção de espaço q um item vai ocupar*/
+    flex-grow:0; /*Padrão é 0*/
+
+    /* Define a capacidade de redução do tamanho do item */
+    flex-shrink: 1; /*1 é padrão*/
+
+    /* Indica o tamanho inicial do flex item, antes da distribuição
+    do espaço Restante. */
+    flex-basis: auto; /*Auto é padrão*/
 }
-.ordem1{
+
+
+
+.item1{
+
+    /* flex-shrink: 2; */
+    /* flex-grow: 1; Quanto maior o numero mais ele ocupa o espaço */
+}
+
+.item2{
+    /* flex-shrink: 6; */
+}
+
+/* .ordem1{
     order: 1;
 }
 .ordem2{
@@ -56,4 +80,4 @@ div{
 }
 .ordem4{
     order: 4;
-}
+} */
