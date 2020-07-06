@@ -17,18 +17,22 @@ div{
     display: flex;
 
     /* A propiedade Flex Direction
-    aceita valores: Row, Row-reverse, column, column-reverse */
-    
-    /* É a Direção que vc quer alinhar seu itens */
-    flex-direction: row ; /*Row é o padrão*/
+    aceita valores: Row, Row-reverse, column, column-reverse É a Direção que vc quer alinhar seu itens */
+    /* flex-direction: row ; Row é o padrão */
 
     /* nowrap | wrap | wrap-reverse */
-    flex-wrap:nowrap ; /* nowrap é o padrão*/
+    /* flex-wrap:nowrap ; nowrap é o padrão */
 
 
     /* justify content
     flex-start | flex-end | center | space-between |space-around */
-    justify-content: flex-start; /*Flex-start é o padrão*/
+    /* justify-content: space-around; Flex-start é o padrão */
+
+    /* align items */
+    /* stretch | center| flex-start | flex-end | baseline */
+    /* align-items: baseline; */
+
+
 
 
 }
@@ -40,4 +44,16 @@ div{
     background: white;
     border: 1px solid gray;
     margin: 10px;
+}
+.ordem1{
+    order: 1;
+}
+.ordem2{
+    order: 2;
+}
+.ordem3{
+    order: 3;
+}
+.ordem4{
+    order: 4;
 }
