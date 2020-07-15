@@ -1,0 +1,29 @@
+a{ 
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+/*  manter sempre ESSA ORDEM!! */
+
+/*Links Não Visitados*/
+a:link, a:visited{ /*Pode manter na msm linha*/
+     color: #b9c941
+}
+
+/* Links Visitados
+a:visited{
+    color: #c0c0c0;
+} */
+
+
+/* Links Hover, quando passa o cursor em cima do link */
+a:hover{
+    color:#fff;
+    background:#6d790f ;
+}
+
+/* Quando vc clica nele (e segura ) */
+a:active{
+    color: #e4f371;
+}

@@ -1,0 +1,40 @@
+body{
+    background: cyan;
+}
+
+
+/*  Container precisa ter uma posição que seja absoluta, 
+relativa ou fixa pra q vc possa alinhar os filhos dele, dentro
+dele mesmo */
+#container-dois{
+    background: #fff;
+    width: 800px;
+    position: relative;
+    margin: 10px auto; /*  auto no segundo valor centraliza o objeto*/
+    padding: 10px; /*Espaçamento interno*/ 
+}
+
+
+.absolute{
+    position: absolute;
+    border: 1px solid red;
+    top:80px;
+    right: 20px;
+}
+
+.fixed{
+    position: fixed;
+    border: 1px solid red;
+    top: 0px;
+    right: 0px;
+    margin: 0px;
+
+
+}
+
+p{
+    width: 300px;
+    background: white;
+   
+    
+   }

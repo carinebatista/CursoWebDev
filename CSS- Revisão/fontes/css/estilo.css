@@ -1,0 +1,12 @@
+
+/*  como colocar uma fonte q vc já tem no seu projeto */
+
+@font-face {
+    font-family: "Ancient";
+    src: url(../fontes/Ancient-Medium.woff);
+}
+
+h1 {
+    font-size: 6em;
+    font-family: "Ancient";
+}

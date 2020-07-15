@@ -1,0 +1,28 @@
+/* Herança e Especifidade */
+/* body{
+    color: red;
+    border: 1px solid blue;
+    background: #f1f1f1;
+} */
+
+/*  Especificidade */
+
+/* p{
+    color:blue !important;
+}
+p{
+    color:red;
+} */
+
+/*  Se um seletor for mais especifico que outro, a rwegra mais 
+especifica será aplicada, tera precedencia sobre regras gerais */
+
+*{
+     color: red;
+}
+h2{
+    color: blue;
+}
+h2.verde{
+    color: green;
+}

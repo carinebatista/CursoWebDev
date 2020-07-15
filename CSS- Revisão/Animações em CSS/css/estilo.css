@@ -1,0 +1,71 @@
+/* Animações */
+
+/* Colocar em vários prefixos */
+
+
+@-webkit-keyframes animacao-caixa{
+    from{ /*estado Inicial*/
+        background: red;
+    }
+    to{ /*estado final*/
+        background: green;
+    }
+
+}
+
+@-moz-keyframes animacao-caixa{
+    from{ /*estado Inicial*/
+        background: red;
+    }
+    to{ /*estado final*/
+        background: green;
+    }
+
+}
+
+@-o-keyframes animacao-caixa{
+    from{ /*estado Inicial*/
+        background: red;
+    }
+    to{ /*estado final*/
+        background: green;
+    }
+
+}
+
+
+@keyframes animacao-caixa{
+    from{ /*estado Inicial*/
+        background: red;
+        border-radius: 0px;
+        top: 0;
+        left: 0;
+    }
+    to{ /*estado final*/
+        background: green;
+        border-radius: 300px;
+        top: 200px;
+        left: 200px;
+    }
+
+}
+
+
+#caixa{
+    width: 300px;
+    height: 300px;
+    background: red;
+    position: relative;
+
+    animation-name: animacao-caixa;
+    animation-duration: 5s; /*Quanto tempo dura*/
+    animation-iteration-count: 3; /*quantas vz vc quer*/
+    animation-direction: alternate; alterna a exibição, faz voltar de forma animada
+
+    /* como colocar tudo em uma linha, nome, duração, quantas vzs e direção
+    
+    animation: animacao-caixa 2s 3s 2 alternate; 
+    
+    
+    */
+}   

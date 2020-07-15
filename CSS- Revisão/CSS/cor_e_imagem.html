@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cor e Imagem Fundo </title>
+    <style type="text/css">
+        h1 {
+            /*background-color: #f2f2f2;
+            color: red;*/
+            background-image: url('imagens/yoshi.png');
+            background-repeat: no-repeat;
+            /*repeat-y, repeat-x, no-repeat*/
+            background-attachment: fixed; /*fica fixa no plano de fundo*/
+            /*scroll, a imagem rola junto com a pgina*/
+            /*primeiro VAlor: left, center, right
+            segundo valor: Top, center, bottom*/
+            background-position: center center; /*Recebe dois valores, horizontal e vertical*/
+       
+        }
+        .fundo{
+            background: blue url('imagens/yoshi.png') no-repeat fixed center;
+        }
+    </style>
+
+</head>
+
+<body class="fundo">
+    <h1> Conteúdo do Título 1 </h1>
+    <p> Lorem ipsum dolor sit amet
+        consectetur adipisicing elit.
+        Eaque porro aut dignissimos ea
+        et autem dolorum consequatur
+        totam ipsam quibusdam cupiditate
+        voluptates atque vero suscipit
+        sunt corrupti, rem laborum eligendi! </p>
+
+    <br><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+    <br><BR><BR><BR><BR><BR><BR><BR><BR><BR>
+
+    <p> Lorem ipsum dolor sit amet
+        consectetur adipisicing elit.
+        Eaque porro aut dignissimos ea
+        et autem dolorum consequatur
+        totam ipsam quibusdam cupiditate
+        voluptates atque vero suscipit
+        sunt corrupti, rem laborum eligendi! </p>
+
+</body>
+
+</html>

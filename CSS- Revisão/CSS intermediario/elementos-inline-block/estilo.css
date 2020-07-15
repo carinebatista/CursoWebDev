@@ -1,0 +1,5 @@
+.borda{
+    border: 1px solid red;
+    /* display: inline; comportamento em linha */
+    display: inline-block;
+}
